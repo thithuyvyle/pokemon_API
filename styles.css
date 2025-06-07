@@ -1,0 +1,60 @@
+ @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+        
+body {
+    font-family: 'Pokemon Solid', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.background {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;   
+    letter-spacing: 0.2rem;
+}
+
+ #title{
+    color:#F7C508;
+    font-size: xx-large;
+    text-shadow:
+    -3px -3px 0 black,
+     3px -3px 0 black,
+    -3px  3px 0 black,
+     3px  3px 0 black;
+ }
+
+.container-centered {
+    width: 500px;
+    height: 200px;
+    background-image:url("https://cdn.pixabay.com/photo/2016/07/23/13/21/pokemon-1536855_1280.png");
+    border-radius: 10px;
+    text-align: center;
+    padding: 2em; 
+    border: 2px solid black;          
+}
+
+select.custom-select {
+  appearance: none;
+  -webkit-appearance: none;   /* nav Chrome, Safari .. */
+  -moz-appearance: none;
+  padding: 8px 24px 8px 8px;
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #333;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='black'%20d='M2%200L0%202h4zm0%205L0%203h4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+  cursor: pointer;
+}
+
+img{
+    width: 120px;
+}
+
+#result {  
+    padding-bottom: 20px;
+}
