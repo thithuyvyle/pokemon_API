@@ -9,7 +9,7 @@ body {
 .background {
     display: flex;
     justify-content: center;  
-    align-items: center;      
+    align-items: flex-start;      
     height: 100vh;   
     letter-spacing: 0.2rem;
 }
@@ -30,7 +30,8 @@ body {
     background-image:url("https://cdn.pixabay.com/photo/2016/07/23/13/21/pokemon-1536855_1280.png");
     border-radius: 10px;
     text-align: center;
-    padding: 2em; 
+    padding-bottom: 3em;
+    margin-top: 20px;
     border: 2px solid black;          
 }
 
