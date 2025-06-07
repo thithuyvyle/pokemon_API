@@ -6,7 +6,7 @@ let resultDiv = document.getElementById("result");
 // show all list of pokemon from API
 async function showPokemonList() {   
     try {
-        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/`);   
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=1000`); // add limit otherwise will show only 20   
         if (response.ok) {
             const data = await response.json(); // const data= data from API in JSON
             data.results.forEach(pokemon => {
